@@ -1,4 +1,4 @@
 function justInvoke(fn){
-    let value = fn()
+    const value = fn()
   return value
 }
