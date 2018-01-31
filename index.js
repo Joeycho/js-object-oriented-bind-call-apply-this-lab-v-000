@@ -13,7 +13,6 @@ function setThisWithApply(fn, thisValue, args){
 }
 
 function returnNewFunctionOf(functionToBeCopied, thisValue){
-  let newFunction = functionToBeCopied.bind(thisValue);
+  return functionToBeCopied.bind(thisValue);
 
-  return newFunction
 }
